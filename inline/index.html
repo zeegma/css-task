@@ -465,37 +465,140 @@
       </section>
 
       <!-- Join Us Section -->
-      <section id="join-us" class="white-grid">
-        <div class="join-us-content">
-          <h2>Join Us in Protecting<br />PUP's Feline Friends!</h2>
-          <p>
+      <section
+        id="join-us"
+        class="white-grid"
+        style="
+          position: relative;
+          min-height: 92vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          background-color: #fff;
+          max-width: 100%;
+          margin: 0 auto;
+          box-sizing: border-box;
+          background-image: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0.1) 1px,
+              transparent 1px
+            ),
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+          background-size: 50px 50px;
+        "
+      >
+        <div
+          class="join-us-content"
+          style="max-width: 700px; margin: 0 auto; position: relative"
+        >
+          <h2 style="font-size: 3rem; font-weight: bold; color: #000">
+            Join Us in Protecting<br />PUP's Feline Friends!
+          </h2>
+          <p
+            style="
+              font-size: 1.2rem;
+              color: #333;
+              max-width: 600px;
+              margin: 0 auto;
+            "
+          >
             Our officers lead the way, but we need your help to make a
             difference. Together, we can create a safer, happier future<br />for
             the cats of PUP Sta. Mesa.
           </p>
 
-          <div class="fb-button">
+          <div
+            class="fb-button"
+            style="margin: 30px 0; background-color: transparent"
+          >
             <a
               href="https://www.facebook.com/PUPSintangPusa"
               class="facebook-button"
               target="_blank"
+              style="
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #ffd24c;
+                border: 1px solid black;
+                color: #000;
+                padding: 12px 30px;
+                text-decoration: none;
+                font-weight: 500;
+                position: relative;
+                box-shadow: 5px 5px 0 rgba(0, 0, 0, 1);
+              "
             >
               Visit Our Facebook Page
-              <i class="bx bx-right-arrow-alt"></i>
+              <i
+                class="bx bx-right-arrow-alt"
+                style="margin-left: 10px; transform: rotate(-45deg)"
+              ></i>
             </a>
           </div>
         </div>
 
-        <div class="paw-icon">
-          <img src="./assets/paws1.png" class="paws-right" />
+        <div
+          class="paw-icon"
+          style="position: absolute; top: 80px; right: 150px"
+        >
+          <img
+            src="./assets/paws1.png"
+            class="paws-right"
+            style="width: 200px; height: auto"
+          />
         </div>
 
-        <div class="back-to-top">
-          <a href="#">
+        <div
+          class="back-to-top"
+          style="
+            position: absolute;
+            bottom: 0;
+            right: 4rem;
+            background-color: #d9d9d9;
+            padding: 10px 15px;
+            border: 1px solid #000;
+            margin-top: auto;
+            cursor: pointer;
+          "
+        >
+          <a
+            href="#"
+            style="
+              font-family: 'Space Grotesk', sans-serif;
+              display: flex;
+              align-items: center;
+              color: #000;
+              text-decoration: none;
+              font-size: 1rem;
+              font-weight: bold;
+              padding: 0 1rem;
+            "
+          >
             Back to Top
-            <span class="arrow-up">↑</span>
+            <span class="arrow-up" style="margin-left: 5px">↑</span>
           </a>
         </div>
+
+        <div
+          style="
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(
+              circle at center,
+              transparent 30%,
+              rgba(255, 255, 255, 0.8) 90%,
+              rgba(255, 255, 255, 0.95) 100%
+            );
+            pointer-events: none;
+            z-index: 0;
+          "
+        ></div>
       </section>
     </main>
 
