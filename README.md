@@ -21,9 +21,9 @@ README.md
 
 # Todo
 
-- [] Navbar & Footer: @krislette
-- [] Hero: @HansQueja
-- [] Story & Join Us: @feiryrej
-- [] Goals: @hjcarlos
-- [] Event: @perbik
-- [] Team: @sykeruzn
+- [ ] Navbar & Footer: @krislette
+- [ ] Hero: @HansQueja
+- [ ] Story & Join Us: @feiryrej
+- [ ] Goals: @hjcarlos
+- [ ] Event: @perbik
+- [ ] Team: @sykeruzn
