@@ -24,6 +24,6 @@ styles.css                     # BASE styles.css
 - [ ] Navbar & Footer: [@krislette](https://www.github.com/krislette)
 - [x] Hero: [@HansQueja](https://github.com/HansQueja)
 - [x] Story & Join Us: [@feiryrej](https://github.com/feiryrej)
-- [ ] Goals: [@hjcarlos](https://github.com/hjcarlos)
+- [x] Goals: [@hjcarlos](https://github.com/hjcarlos)
 - [ ] Event: [@perbik](https://github.com/perbik)
 - [x] Officers: [@sykeruzn](https://github.com/sykeruzn)
