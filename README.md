@@ -21,9 +21,9 @@ styles.css                     # BASE styles.css
 
 # Todo
 
-- [ ] Navbar & Footer: [@krislette] (https://www.github.com/krislette)
-- [ ] Hero: [@HansQueja] (https://github.com/HansQueja)
-- [ ] Story & Join Us: [@feiryrej] (https://github.com/feiryrej)
-- [ ] Goals: [@hjcarlos] (https://github.com/hjcarlos)
-- [ ] Event: [@perbik] (https://github.com/perbik)
-- [ ] Team: [@sykeruzn] (https://github.com/sykeruzn)
+- [ ] Navbar & Footer: [@krislette](https://www.github.com/krislette)
+- [ ] Hero: [@HansQueja](https://github.com/HansQueja)
+- [ ] Story & Join Us: [@feiryrej](https://github.com/feiryrej)
+- [ ] Goals: [@hjcarlos](https://github.com/hjcarlos)
+- [ ] Event: [@perbik](https://github.com/perbik)
+- [ ] Team: [@sykeruzn](https://github.com/sykeruzn)
