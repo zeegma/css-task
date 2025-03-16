@@ -11,12 +11,12 @@ For context, here's the folder structure. Meron na rin sari-sariling assets yung
 ├── assets                     # BASE assets directory
 ├── external                   # External CSS demo directory
 ├── inline                     # Inline CSS demo directory
-├── internal                   # Internal CSS demo directory
-├── index.html                 # BASE index.html
-├── README.md                  # This README file
-└── styles.css                 # BASE styles.css
-README.md
+└── internal                   # Internal CSS demo directory
+index.html                     # BASE index.html
+README.md                      # This README file
+styles.css                     # BASE styles.css
 ```
+
 **Note:** I included base files for reference
 
 # Todo
