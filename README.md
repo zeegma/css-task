@@ -12,8 +12,8 @@ For context, here's the folder structure. Meron na rin sari-sariling assets yung
 ├── external                   # External CSS demo directory
 ├── inline                     # Inline CSS demo directory
 └── internal                   # Internal CSS demo directory
-index.html                     # BASE index.html
 README.md                      # This README file
+index.html                     # BASE index.html
 styles.css                     # BASE styles.css
 ```
 
@@ -21,9 +21,9 @@ styles.css                     # BASE styles.css
 
 # Todo
 
-- [ ] Navbar & Footer: @krislette
-- [ ] Hero: @HansQueja
-- [ ] Story & Join Us: @feiryrej
-- [ ] Goals: @hjcarlos
-- [ ] Event: @perbik
-- [ ] Team: @sykeruzn
+- [ ] Navbar & Footer: [@krislette] (https://www.github.com/krislette)
+- [ ] Hero: [@HansQueja] (https://github.com/HansQueja)
+- [ ] Story & Join Us: [@feiryrej] (https://github.com/feiryrej)
+- [ ] Goals: [@hjcarlos] (https://github.com/hjcarlos)
+- [ ] Event: [@perbik] (https://github.com/perbik)
+- [ ] Team: [@sykeruzn] (https://github.com/sykeruzn)
