@@ -68,11 +68,52 @@
     <!-- Main Content -->
     <main>
       <!-- Hero Section -->
-      <section id="hero">
-        <div>
-          <div class="hero-content">
-            <h1 class="hero-title">For the Cats of PUP, We Serve</h1>
-            <p class="hero-description">
+      <section 
+        id="hero" 
+        style="
+          width: 100%;
+          height: 100vh;
+        "
+      >
+        <div 
+          style="
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+          "
+        >
+          <div 
+            class="hero-content" 
+            style="
+              width: 50%;
+              background-color: #ffc847;
+              padding: 2rem;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              border: 1px solid rgb(61, 59, 59);
+            "
+          >
+            <h1 
+              class="hero-title" 
+              style="
+                font-size: 4.8rem;
+                margin-bottom: 1.5rem;
+                font-weight: bold;
+                text-align: center;
+              "
+            >For the Cats of PUP, We Serve</h1>
+            <p 
+              class="hero-description" 
+              style="
+                font-size: 1.7rem;
+                line-height: 1.6;
+                margin-bottom: 2rem;
+                margin-left: 5rem;
+                margin-right: 5rem;
+              "
+            >
               Born from compassion, driven by action-protecting and caring for
               the feline souls of PUP Sta. Mesa.
             </p>
@@ -80,16 +121,57 @@
               <a
                 href="https://www.facebook.com/PUPSintangPusa"
                 class="cta-button"
+                style="
+                  background-color: #000;
+                  color: white;
+                  padding: 1rem 2rem;
+                  font-size: 1.1rem;
+                  border: none;
+                  cursor: pointer;
+                  font-weight: 500;
+                  align-items: normal;
+                  margin-left: 77px;
+                  text-decoration: none;
+                "
+
+                onmouseover="
+                  this.style.background='#4dc7b0'; 
+                  this.style.border='1px solid #000'; 
+                  this.style.color='#000';
+                "
+                onmouseout="
+                  this.style.background='#000'; 
+                  this.style.border='none'; 
+                  this.style.color='white';
+                "
               >
                 Join Our Mission
               </a>
             </div>
           </div>
-          <figure class="hero-figure">
+          <figure 
+            class="hero-figure" 
+            style="
+              width: 50%;
+              margin: 0;
+              background-color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border: 1px solid #0f1419;
+              position: relative;
+            "
+          >
             <img
               class="cat-image"
               src="assets/sleeping-pogi.png"
               alt="sleeping-pogi-with-name-tag"
+              style="
+                max-width: 100%;
+                height: auto;
+                position: relative;
+                top: 50px;
+              "
             />
           </figure>
         </div>
