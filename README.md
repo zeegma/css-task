@@ -22,7 +22,7 @@ styles.css                     # BASE styles.css
 # Todo
 
 - [ ] Navbar & Footer: [@krislette](https://www.github.com/krislette)
-- [x] Hero: [@HansQueja](https://github.com/HansQueja)
+- [ ] Hero: [@HansQueja](https://github.com/HansQueja)
 - [x] Story & Join Us: [@feiryrej](https://github.com/feiryrej)
 - [x] Goals: [@hjcarlos](https://github.com/hjcarlos)
 - [ ] Event: [@perbik](https://github.com/perbik)
