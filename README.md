@@ -26,4 +26,4 @@ styles.css                     # BASE styles.css
 - [x] Story & Join Us: [@feiryrej](https://github.com/feiryrej)
 - [ ] Goals: [@hjcarlos](https://github.com/hjcarlos)
 - [ ] Event: [@perbik](https://github.com/perbik)
-- [ ] Team: [@sykeruzn](https://github.com/sykeruzn)
+- [x] Officers: [@sykeruzn](https://github.com/sykeruzn)
