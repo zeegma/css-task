@@ -25,5 +25,5 @@ styles.css                     # BASE styles.css
 - [x] Hero: [@HansQueja](https://github.com/HansQueja)
 - [x] Story & Join Us: [@feiryrej](https://github.com/feiryrej)
 - [x] Goals: [@hjcarlos](https://github.com/hjcarlos)
-- [x] Event: [@perbik](https://github.com/perbik)
+- [ ] Event: [@perbik](https://github.com/perbik)
 - [x] Officers: [@sykeruzn](https://github.com/sykeruzn)
