@@ -240,6 +240,8 @@
               text-decoration: none;
               text-align: center;
             "
+            onmouseover="this.style.background='#ffc847'; this.style.border='1px solid #000'; this.style.color='#000';"
+            onmouseout="this.style.background='#000'; this.style.border='none'; this.style.color='white';"
           >
             Read More Stories
             <i
@@ -1562,7 +1564,10 @@
                 font-weight: 500;
                 position: relative;
                 box-shadow: 5px 5px 0 rgba(0, 0, 0, 1);
+                transition: transform 0.2s, background-color 0.2s;
               "
+              onmouseover="this.style.transform='translateY(-2px)'; this.style.backgroundColor='#4dc7b0';"
+              onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='#ffd24c';"
             >
               Visit Our Facebook Page
               <i
@@ -1595,7 +1600,10 @@
             border: 1px solid #000;
             margin-top: auto;
             cursor: pointer;
+            transition: background-color 0.2s;
           "
+          onmouseover="this.style.backgroundColor='#4dc7b0';"
+          onmouseout="this.style.backgroundColor='#d9d9d9';"
         >
           <a
             href="#"
