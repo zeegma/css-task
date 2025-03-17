@@ -42,87 +42,15 @@ html {
   z-index: 0;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  padding: 0.8rem 2rem;
-  background-color: #0f1419;
-  color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  height: 4rem;
-  overflow: hidden;
-}
-
-.navbar > div {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.logo a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.logo-image {
-  height: 30px;
-  margin-right: 8px;
-  margin-left: 77px;
-}
-
-.logo-text {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.main-nav {
-  margin: 0 auto;
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-  gap: 2rem;
-}
-
-.nav-links a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 500;
-  padding: 0.5rem 0;
-  transition: color 0.3s ease;
-}
-
+/* ! NOTE*/
 .nav-links a:hover {
   color: #ffc847;
-}
-
-.cta-button-yellow {
-  padding: 1.6rem 1.5rem;
-  height: 100%;
-  display: flex;
-  background-color: #ffc847;
-  color: #0f1419;
-  font-weight: 600;
-  font-size: 15px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-right: 78px;
-  text-decoration: none;
 }
 
 .cta-button-yellow:hover {
   background-color: #4dc7b0;
 }
+/* ! NOTE */
 
 /* Story Section */
 #story {
@@ -405,71 +333,7 @@ i {
 }
 
 /* Footer */
-footer {
-  background-color: #000;
-  color: #fff;
-  padding: 3rem 0 2rem 0;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto 30px;
-}
-
-.logo-link {
-  text-decoration: none;
-  color: #fff;
-}
-
-.footer-logo {
-  display: flex;
-  align-items: center;
-}
-
-.footer-logo img {
-  width: 60px;
-  height: 60px;
-  margin-right: 15px;
-}
-
-.footer-tagline {
-  display: flex;
-  flex-direction: column;
-}
-
-.organization-name {
-  font-weight: bold;
-  font-size: 18px;
-  margin: 0;
-}
-
-.organization-motto {
-  font-size: 14px;
-  margin: 0;
-  color: #ccc;
-}
-
-.social-links {
-  display: flex;
-  gap: 15px;
-}
-
-.social-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border: 1px solid #4dc7b0;
-  color: #4dc7b0;
-  text-decoration: none;
-  position: relative;
-  box-shadow: 3px 3px 0 #4dc7b0;
-}
-
+/* ! NOTE */
 .social-icon:hover {
   background-color: #4dc7b0;
   color: #000;
@@ -496,48 +360,6 @@ footer {
   content: "✉";
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
-.footer-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-top: 3rem;
-}
-
-.footer-links ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 20px;
-}
-
-.footer-links a {
-  color: #868686;
-  text-decoration: none;
-  font-size: 14px;
-  transition: color 0.2s;
-}
-
 .footer-links a:hover {
   color: #4dc7b0;
-}
-
-.copyright {
-  color: #868686;
-  font-size: 14px;
-  margin: 0;
 }
