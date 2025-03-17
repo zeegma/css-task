@@ -21,9 +21,10 @@ styles.css                     # BASE styles.css
 
 # Todo
 
-- [ ] Navbar & Footer: [@krislette](https://www.github.com/krislette)
+- [x] Navbar & Footer: [@krislette](https://www.github.com/krislette)
 - [x] Hero: [@HansQueja](https://github.com/HansQueja)
 - [x] Story & Join Us: [@feiryrej](https://github.com/feiryrej)
 - [x] Goals: [@hjcarlos](https://github.com/hjcarlos)
 - [x] Event: [@perbik](https://github.com/perbik)
 - [x] Officers: [@sykeruzn](https://github.com/sykeruzn)
+- [ ] File clean-up + 1:1 transfer of advanced selectors (if possible)
