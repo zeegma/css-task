@@ -4,27 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Bricolage Grotesque", "Segoe UI", sans-serif;
-  line-height: 1.6;
-}
-
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 60px;
-}
-
-.white-grid {
-  position: relative;
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.1) 1px,
-      transparent 1px
-    ),
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
-  background-size: 50px 50px;
-}
-
 .white-grid::before {
   content: "";
   position: absolute;
@@ -42,7 +21,6 @@ html {
   z-index: 0;
 }
 
-/* ! NOTE*/
 .nav-links a:hover {
   color: #ffc847;
 }
@@ -50,69 +28,12 @@ html {
 .cta-button-yellow:hover {
   background-color: #4dc7b0;
 }
-/* ! NOTE */
 
 /* Story Section */
-#story {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  padding: 2rem;
-}
-
-#story div {
-  position: relative;
-  max-width: 800px;
-  z-index: 1;
-}
-
-.story-title {
-  font-weight: 700;
-  color: #000;
-  line-height: 1.3;
-  font-size: 4rem;
-  margin-bottom: 1.5rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.story-text {
-  font-size: 1.2rem;
-  color: #666;
-  margin-top: 1rem;
-  line-height: 1.6;
-}
-
-.read-more-button {
-  background-color: #000;
-  color: white;
-  padding: 1rem 2rem;
-  font-size: 1.1rem;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  align-items: normal;
-  margin: 25px;
-  display: inline-flex;
-  text-decoration: none;
-  text-align: center;
-}
-
 .read-more-button:hover {
   background: #ffc847;
   border: 1px solid #000;
   color: #000;
-}
-
-.read-more-button i {
-  font-size: 24px;
-  margin-left: 8px;
-  position: relative;
-  top: 4px;
 }
 
 /* Goals Section */
@@ -230,110 +151,16 @@ html {
 }
 
 /* Join Us Section */
-#join-us {
-  position: relative;
-  min-height: 92vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  background-color: #fff;
-  max-width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-.join-us-content {
-  max-width: 700px;
-  margin: 0 auto;
-  position: relative;
-}
-
-#join-us h2 {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #000;
-}
-
-.join-us-content p {
-  font-size: 1.2rem;
-  color: #333;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.fb-button {
-  margin: 30px 0;
-  background-color: transparent;
-}
-
-.facebook-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffd24c;
-  border: 1px solid black;
-  color: #000;
-  padding: 12px 30px;
-  text-decoration: none;
-  font-weight: 500;
-  position: relative;
-  box-shadow: 5px 5px 0 rgba(0, 0, 0, 1);
-}
-
 .facebook-button:hover {
   transform: translateY(-2px);
   background-color: #4dc7b0;
-}
-
-i {
-  margin-left: 10px;
-  transform: rotate(-45deg);
-}
-
-.paw-icon {
-  position: absolute;
-  top: 80px;
-  right: 150px;
-}
-
-.paws-right {
-  width: 200px;
-  height: auto;
-}
-
-.back-to-top {
-  position: absolute;
-  bottom: 0;
-  right: 4rem;
-  background-color: #d9d9d9;
-  padding: 10px 15px;
-  border: 1px solid #000;
-  margin-top: auto;
-  cursor: pointer;
 }
 
 .back-to-top:hover {
   background: #4dc7b0;
 }
 
-.back-to-top a {
-  font-family: "Space Grotesk", sans-serif;
-  display: flex;
-  align-items: center;
-  color: #000;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 0 1rem;
-}
-
-.arrow-up {
-  margin-left: 5px;
-}
-
 /* Footer */
-/* ! NOTE */
 .social-icon:hover {
   background-color: #4dc7b0;
   color: #000;
