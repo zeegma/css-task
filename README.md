@@ -27,4 +27,4 @@ styles.css                     # BASE styles.css
 - [x] Goals: [@hjcarlos](https://github.com/hjcarlos)
 - [x] Event: [@perbik](https://github.com/perbik)
 - [x] Officers: [@sykeruzn](https://github.com/sykeruzn)
-- [ ] File clean-up + 1:1 transfer of advanced selectors (if possible)
+- [x] File clean-up + 1:1 transfer of advanced selectors (if possible)
